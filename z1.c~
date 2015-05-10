@@ -1,0 +1,14 @@
+#include "z.h"
+int main()
+{
+int *a;
+float *b;
+int q=2;
+float c=2.3;
+a=&q;
+b=&c;
+printf("a is %i\n",*a);
+printf("c is %f\n",*b);
+*a=*b; //assing contents pointed by c pointer to a
+printf("a is now %i\n",*a);
+}
