@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 int a=22;
 void print(){
 a=2;
